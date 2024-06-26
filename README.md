@@ -2,9 +2,9 @@
 
 ![iotman-banner](IOTMAN+.png)
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://packagist.org/packages/James-kamwendo/framework"><img src="https://img.shields.io/packagist/l/James-kamwendo/framework" alt="License"></a>
-</p>
+</p> -->
 
 ## About IOTMAN+
 
