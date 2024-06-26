@@ -71,6 +71,7 @@ tunnel.mydomain.com
 ```
 
 4. Start open-balena
+   
 make sure your open balena instance is running first before starting up the iotman-plus
 
 ```sh
