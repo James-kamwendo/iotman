@@ -31,13 +31,16 @@ Currently, the offical documentation for IOTMAN+ is under development, it will b
 
 ```sh
 git clone https://github.com/James-kamwendo/iotman.git
+cd iotman/
 chmod -x quickstart
 ```
 
 2. Configure iotman-plus-admin
 
+This will set the environments required by the iotman plus to sync with your open balena instance.
+
 ```sh
-iotman/quickstart -u <OPENBALENA_DB_USER> -p <OPENBALENA_DB_PASSWORD> -d <DOMAIN> -P [OPENBALENA_DB_PORT] -i [PROTOCOL]
+./quickstart -u <OPENBALENA_DB_USER> -p <OPENBALENA_DB_PASSWORD> -d <DOMAIN> -P [OPENBALENA_DB_PORT] -i [PROTOCOL]
 ```
 
 **Note**: For a full list of quickstart configuration options, run `iotman/quickstart -h`.
@@ -80,8 +83,10 @@ make up
 
 5. Start iotman-plus
 
+Reaching this far it means you successfully configured the environments in step 2. Otherwise let's finish by running the containers.
+
 ```sh
-iotman/docker compose up
+docker compose up
 
 # [optionally] add -d to the command to run in the background
 ```
