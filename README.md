@@ -2,9 +2,9 @@
 
 ![iotman-banner](IOTMAN+.png)
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://packagist.org/packages/James-kamwendo/framework"><img src="https://img.shields.io/packagist/l/James-kamwendo/framework" alt="License"></a>
-</p> -->
+</p>
 
 ## About IOTMAN+
 
@@ -30,17 +30,17 @@ Currently, the offical documentation for IOTMAN+ is under development, it will b
 1. Get the iotman-plus project to your open balena server
 
 ```sh
-git clone https://github.com/James-kamwendo/iotman+.git
+git clone https://github.com/James-kamwendo/iotman.git
 chmod -x quickstart
 ```
 
 2. Configure iotman-plus-admin
 
 ```sh
-iotman+/quickstart -u <OPENBALENA_DB_USER> -p <OPENBALENA_DB_PASSWORD> -d <DOMAIN> -P [OPENBALENA_DB_PORT] -i [PROTOCOL]
+iotman/quickstart -u <OPENBALENA_DB_USER> -p <OPENBALENA_DB_PASSWORD> -d <DOMAIN> -P [OPENBALENA_DB_PORT] -i [PROTOCOL]
 ```
 
-**Note**: For a full list of quickstart configuration options, run `iotman-plus/quickstart -h`.
+**Note**: For a full list of quickstart configuration options, run `iotman/quickstart -h`.
 
 3. Set up hostnames
 
@@ -80,7 +80,7 @@ make up
 5. Start iotman-plus
 
 ```sh
-iotman+/docker compose up
+iotman/docker compose up
 
 # [optionally] add -d to the command to run in the background
 ```
