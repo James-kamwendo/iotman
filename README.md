@@ -8,7 +8,7 @@
 
 ## About IOTMAN+
 
-IOTMAN+, simply put is a web application friendly admin UI for Open Balena. We believe deployment and management of Iot devices must be an enjoyable and interesting experience to be truly fulfilling. IOTMAN+ takes the pain out of deployment and management by easing common tasks you do with Open Balena, such as:
+IOTMAN+, simply put is a web application friendly admin UI for Open Balena(a platform for managing IOT devices). We believe deployment and management of IOT devices must be an enjoyable and interesting experience to be truly fulfilling. IOTMAN+ takes the pain out of deployment and management by easing common tasks you do with Open Balena, such as:
 
 - Fleet or App Management.
 - Device Management.
